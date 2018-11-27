@@ -1,0 +1,36 @@
+body{
+    padding-left: 40%;
+    padding-top: 3cm;
+}
+.square{
+    background: #fff;
+    /* border: 1px solid royalblue; */
+    background-color: darkolivegreen;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 70px;
+    padding: 0;
+    text-align: center;
+    width: 70px;
+}
+.numpad{
+    display: inline-block;
+    border: 2px solid black;
+}
+.result{
+    height: 75px;
+    width: 280px;
+    background-color: yellowgreen;
+    border: 2px solid royalblue;
+    text-align: right;
+    font-size: 25px;
+
+}
+.result > p{
+    padding-right: 10px;
+}
+.clear>.square{
+    width: 140px;
+}
